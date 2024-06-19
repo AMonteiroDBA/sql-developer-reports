@@ -1,0 +1,40 @@
+{
+    "sqltools.connections": [
+        {
+            "oracleOptions": {
+                "privilege": "Normal",
+                "thickMode": false,
+                "autoCommit": false,
+                "lowerCase": false,
+                "limitPrefetchRows": false
+            },
+            "previewLimit": 50,
+            "server": "10.113.134.40",
+            "port": 1521,
+            "driver": "Oracle",
+            "name": "OGLD09PR1",
+            "group": "GOLD09",
+            "database": "srv_gold",
+            "username": "IBMAPPORACLE",
+            "password": "KYNex1t50"
+        },
+        {
+            "oracleOptions": {
+                "privilege": "Normal",
+                "thickMode": false,
+                "autoCommit": false,
+                "lowerCase": false,
+                "limitPrefetchRows": true
+            },
+            "previewLimit": 100,
+            "server": "brexa09dbadm01",
+            "port": 1521,
+            "driver": "Oracle",
+            "name": "GOLD09PR01",
+            "group": "GOLD09",
+            "database": "ogld09pr01",
+            "username": "IBMAPPORACLE",
+            "password": "KYNex1t50"
+        }
+    ]
+}
